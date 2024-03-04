@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+  .navi {
+    width: 100%;
+    height: 7vh;
+    background: linear-gradient(rgb(129, 78, 241), rgb(249, 118, 249));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
+
+  .navi h2 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 600;
+  }
+  .superparent {
+    width: 100%;
+    height: 50vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
+  .parent {
+    width: 75%;
+    height: 35vh;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .child {
+    width: 55%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn1 {
+    padding: 5px;
+    border-radius: 12px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: rgb(179, 186, 193);
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .btn2 {
+    position: absolute;
+    top: 17%;
+    padding: 5px;
+    border-radius: 12px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: rgb(157, 165, 174);
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .bdr {
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(black, blue);
+  }
+  .btn3 {
+    position: absolute;
+    top: 9%;
+    padding: 5px;
+    border-radius: 12px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: rgb(164, 173, 181);
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .codename {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(182, 150, 250), rgb(248, 157, 248));
+    border: 2px solid black;
+  }
+  .codename h2 {
+    font-size: 30px;
+    font-style: oblique;
+  }
+  .code {
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(rgb(213, 194, 254), rgb(250, 203, 250));
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+  }
+  .code span {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .rgb {
+    margin-left: 10px;
+  }
+  .cd {
+    margin-left: 10px;
+    background-color: bisque;
+  }
+  .namediv {
+    display: flex;
+    justify-content: center;
+  }
+  .para {
+    opacity: 0.3;
+    align-items: center;
+  }
+}
+
+.navi {
+  width: 100%;
+  height: 7vh;
+  background: linear-gradient(rgb(129, 78, 241), rgb(249, 118, 249));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+.navi h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+}
+.superparent {
+  width: 100%;
+  height: 50vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+.parent {
+  width: 75%;
+  height: 35vh;
+  /* background-color: rgb(98, 72, 231); */
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  width: 55%;
+  height: 20vh;
+  /* background-color: rgb(77, 239, 79); */
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn1 {
+  padding: 4px;
+  border-radius: 12px;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: rgb(164, 169, 175);
+
+  font-weight: 800;
+}
+.btn2 {
+  position: absolute;
+  top: 18%;
+  padding: 4px;
+  border-radius: 12px;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: rgb(157, 164, 170);
+  font-weight: 800;
+}
+.bdr {
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(black, blue);
+  border: 1px solid black;
+}
+.btn3 {
+  position: absolute;
+  top: 10%;
+  padding: 4px;
+  border-radius: 12px;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: rgb(180, 187, 195);
+  font-weight: 800;
+}
+.codename {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(182, 150, 250), rgb(248, 157, 248));
+  border: 2px solid black;
+}
+.codename h2 {
+  font-size: 30px;
+  font-style: oblique;
+}
+.code {
+  width: 100%;
+  height: 10vh;
+  background: linear-gradient(rgb(225, 213, 252), rgb(247, 222, 247));
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+}
+.code span {
+  font-size: 25px;
+  font-weight: 600;
+}
+.rgb {
+  margin-left: 10px;
+}
+
+.cd {
+  margin-left: 10px;
+  background-color: bisque;
+}
+.namediv {
+  display: flex;
+  justify-content: center;
+}
+.para {
+  opacity: 0.3;
+  align-items: center;
+}
