@@ -42,7 +42,7 @@ superparent.addEventListener("click", function (e) {
 const alertbox = document.querySelector("body");
 
 const allert = function (e) {
-  alert("⚠️⚠️RANDOM CLICK ON THE CODE(A, B, C) BUTTON!!!");
+  alert("⚠️⚠️PLEASE RANDOMLY CLICK ON THE CODE(A, B, C) BUTTON!!!");
 };
 alertbox.addEventListener("mouseenter", allert);
 
